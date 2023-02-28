@@ -1,0 +1,126 @@
+@media screen and (max-width: 768px) {
+    body {
+        list-style: none;
+        margin: 0;
+        max-width: 768px;
+    }
+
+    header div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    header div a img {
+        width: 100%;
+        margin-top: 21px;
+    }
+
+    header div nav {
+        justify-content: center;
+    }
+
+    header div nav ul {
+        width: 100%;
+        justify-content: center;
+        margin-top: 53px;
+        gap: 0;
+    }
+
+    header div nav ul li {
+        padding: 0;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        border: 3px solid;
+        border-bottom-color: #f2f2f2;
+        border-top-color: #fff;
+        border-left-color: #fff;
+        border-right-color: #fff;
+    }
+
+    header div nav ul li:hover {
+        border: 3px solid;
+        border-top-color: #fff;
+        border-left-color: #fff;
+        border-right-color: #fff;
+        border-bottom-color: #0065fc;
+        color: #0065fc;
+    }
+
+    header div nav ul li a {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    header h1 {
+        margin-left: 20px;
+        margin-top: 31px;
+    }
+
+    header h2 {
+        margin-left: 20px;
+        margin-top: 13px;
+    }
+
+    #searchtown {
+        margin-left: 0;
+        align-items: center;
+    }
+
+    #searchtown::before {
+        content: "\f3c5";
+        transform: translateX(35px);
+        box-sizing: content-box;
+        background: #F2F2F2;
+        height: 50px;
+        width: 50px;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+
+    #searchtown input {
+        border: 1px solid #f2f2f2;
+    }
+
+    #searchtown button span {
+        display: none;
+    }
+
+    #searchtown button::before {
+        content: "\f002";
+        width: 50px;
+        height: 49px;
+        color: #fff;
+    }
+
+    #filters {
+        width: 100%;
+        margin-top: 34px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-left: 20px;
+    }
+
+    #filters > p {
+     width: 100%;   
+    }
+
+    #filters ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    #filters ul li {
+        width: 100%;
+        margin-top: 17px;
+        text-align: center;
+    }
+}
