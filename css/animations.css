@@ -209,3 +209,70 @@
   -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
   transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
+
+.fade-in {
+	-webkit-animation: fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) .5s both;
+	        animation: fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) .5s both;
+}
+
+ @-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.fade-in-1s {
+	-webkit-animation: fade-in-1s 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.2s both;
+	        animation: fade-in-1s 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.2s both;
+}
+
+ @-webkit-keyframes fade-in-1s {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in-1s {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-in-h {
+	-webkit-animation: fade-in-h 0.7s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in-h 0.7s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+ @-webkit-keyframes fade-in-h {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in-h {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
