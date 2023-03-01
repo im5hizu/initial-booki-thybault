@@ -102,8 +102,8 @@
         padding-top: 0;
     }
 
-    .hvr-overline-from-center:before {
-        display: none;
+    .hvr-overline-from-center {
+        transition: none;
     }
 
     .align-horiz-no-space {
@@ -197,7 +197,6 @@
     #popular div {
         gap: 10px;
         width: 100%;
-        transform: translateY(-15px);
     }
 
     #popular div article {
