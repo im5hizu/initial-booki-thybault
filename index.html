@@ -17,7 +17,7 @@
 </head>
 <body>
     <div>
-        <header>
+        <header class="fade-in-h">
             <div>
                 <a href="index.html"><img src="/logo/Booki.png" alt="logo du site"></a>
                 <nav>
@@ -33,14 +33,16 @@
             <div id="searchbutton">
                 <form action="#" method="get" id="searchtown">
                     <label for="search">Rechercher une ville (ex: Marseille, France)</label>
-                    <input type="search" name="searchtown" id="search" required>
-                    <button><i class="fa-solid fa-magnifying-glass"></i><span>Rechercher</span></button>
+                    <i class="fa-solid fa-location-dot"></i><input type="search" name="searchtown" id="search" required>
+                    <button>
+                        <i class="fa-solid fa-magnifying-glass"></i><span>Rechercher</span>
+                    </button>
                 </form>
             </div>
             <div id="filters">
                 <p>Filtres</p>
                 <ul>
-                    <li class="hvr-icon-down"><i class="fa-solid fa-dollar-sign hvr-icon"></i>Economique</li></a>
+                    <li class="hvr-icon-down"><i class="fa-solid fa-dollar-sign hvr-icon"></i>Economique</li>
                     <li class="hvr-icon-down"><i class="fa-solid fa-person hvr-icon"></i>Familial</li>
                     <li class="hvr-icon-down"><i class="fa-solid fa-heart hvr-icon"></i>Romantique</li>
                     <li class="hvr-icon-down"><i class="fa-solid fa-paw hvr-icon"></i>Animaux Autorisés</li>
@@ -52,7 +54,7 @@
         </header>
         <main>
             <div class="align-horiz">
-                <section id="offers">
+                <section id="offers" class="fade-in">
                     <div id="itemcontainer">
                         <h2>Hébergements à Marseille</h2>
                         <section>
@@ -156,7 +158,7 @@
                         <a id="showmore" href="#">Afficher plus</a>
                     </div>
                 </section>
-                <section id="popular">
+                <section id="popular" class="fade-in-1s">
                     <h2>Les plus populaires</h2>
                     <div>
                         <article class="hvr-float-shadow">
