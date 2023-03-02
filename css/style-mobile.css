@@ -1,8 +1,8 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 376px) {
     body {
         list-style: none;
         margin: 0;
-        max-width: 768px;
+        max-width: 1024px;
     }
 
     header div {
@@ -112,12 +112,12 @@
     }
 
     .align-horiz-no-space i {
-        width: 24px;
+        width: 30px;
         font-size: 12px;
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 24px;
+        height: 25px;
     }
 
     #searchtown {
@@ -140,6 +140,8 @@
 
     #searchtown input {
         border: 1px solid #f2f2f2;
+        width: 100%;
+        padding-left: 45px;
     }
 
     #searchtown button i {
@@ -200,8 +202,8 @@
     }
 
     #popular div article {
-        width: 334px;
-        height: 144px;
+        width: 90%;
+        height: 100%;
         box-shadow: 0px 0px 2px 0px grey;
     }
 
@@ -224,13 +226,13 @@
     }
 
     #itemcontainer section article {
-        width: 335px;
+        width: 90%;
         height: 199px;
         box-shadow: 0px 0px 2px 0px grey;
     }
 
     #itemcontainer section article img {
-        width: 335px;
+        width: 100%;
         height: 124px;
     }
 
@@ -241,6 +243,8 @@
     #activities {
         margin-top: 105px;
         justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
     }
 
     #activities h2 {
@@ -249,11 +253,11 @@
 
     #activities div {
         box-shadow: 0px 0px 2px 0px grey;
+        width: 90%;
     }
 
     #activities div img {
-        width: 334px;
-        height: 134px;
+        width: 100%;
     }
 
     #activities div h3 {

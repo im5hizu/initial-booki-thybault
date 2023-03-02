@@ -1,9 +1,28 @@
-@media screen and (min-width: 768px) and (max-width: 992px)  {
+@media screen and (min-width: 376px) and (max-width: 1024px)  {    
     .align-horiz {
         flex-direction: column;
     }
 
+    .align-horiz-no-space i {
+        width: 30px;
+        height: 25px;
+    }
+
+    #searchtown input {
+        padding-left: 40px;
+    }
+
     #itemcontainer {
+        width: 100%;
+        height: auto;
+    }
+
+    #itemcontainer section article {
+        width: 30%;
+        margin-top: 30px;
+    }
+
+    #itemcontainer section article img {
         width: 100%;
     }
 
@@ -29,13 +48,18 @@
         justify-content: space-evenly;
     }
 
+    #popular div article img {
+        width: 100%;
+        max-width: 128px;
+    }
+
     #activities div {
-        width: 182px;
+        width: 20%;
         height: 267px;
     }
 
     #activities div img {
-        width: 182px;
+        width: 100%;
         height: 211px;
     }
 
@@ -49,5 +73,13 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+    }
+
+    #filters {
+        width: 100%;
+    }
+
+    #showmore {
+        padding-bottom: 46px;
     }
 }

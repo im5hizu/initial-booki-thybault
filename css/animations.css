@@ -281,13 +281,13 @@ body > div:first-of-type {
     display: flex;
     width: 90%;
     box-sizing: content-box;
-    height: 100%;
+    height: 100vh;
     position: absolute;
     background: #fff;
     z-index: 2;
 }
 
-body div:nth-last-child(2) {
+body div:nth-child(2) {
   visibility: visible;
   transition: all 3s;
 }
@@ -335,5 +335,5 @@ body div:nth-last-child(2) {
 }
 
 .loader-fade {
-  animation: loader-fade 3s both ;
+  animation: loader-fade 3s both;
 }
