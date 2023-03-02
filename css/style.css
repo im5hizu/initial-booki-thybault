@@ -140,9 +140,12 @@ footer div ul li a:hover {
   border-radius: 50%;
   width: 25px;
   height: 25px;
-  text-align: center;
   color: #0065fc;
   cursor: pointer;
+  font-size: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .starrating {
@@ -161,6 +164,19 @@ footer div ul li a:hover {
   margin-left: 5px;
 }
 
+#searchtown > i {
+  transform: translateX(35px);
+  box-sizing: content-box;
+  background: #F2F2F2;
+  height: 49px;
+  width: 50px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
 #searchtown label{
   display: none;
 }
@@ -171,6 +187,7 @@ footer div ul li a:hover {
   border-right-width: 0px;
   border-radius: 15px 0 0 15px;
   border-width: 1px;
+  border-color: #F2F2F2;
 }
 
 #searchtown button {
@@ -182,6 +199,9 @@ footer div ul li a:hover {
   font-weight: 700;
   border-radius: 0px 15px 15px 0px;
   border-width: 1px;
+  border-top-color: #0065fc;
+  border-right-color: #0065fc;
+  border-bottom-color: #0065fc;
   transform: translateX(-2px);
   padding: 0px 16px;
 }
@@ -210,7 +230,7 @@ footer div ul li a:hover {
 }
 
 #filters ul li {
-  border: 2px solid #d9d9d9;
+  border: 2px solid #f2f2f2;
   border-radius: 25px;
   height: 50px;
   display: flex;
@@ -233,7 +253,7 @@ footer div ul li a:hover {
 #itemcontainer {
   display: flex;
   flex-wrap: wrap;
-  background: #d9d9d9;
+  background: #f2f2f2;
   border-radius: 20px;
   width: 880px;
   height: 626px;
@@ -259,6 +279,7 @@ footer div ul li a:hover {
   height: 199px;
   background:#fff;
   border-radius: 20px;
+  box-shadow: 0px 0px 2px 0px grey;
 }
 
 #itemcontainer section article img {
@@ -307,7 +328,7 @@ footer div ul li a:hover {
 #popular {
   width: 420px;
   height: 625px;
-  background: #d9d9d9;
+  background: #f2f2f2;
   border-radius: 20px;
   display: flex;
   flex-wrap: wrap;
@@ -334,6 +355,7 @@ footer div ul li a:hover {
   height: 144px;
   background: #fff;
   border-radius: 20px;
+  box-shadow: 0px 0px 2px 0px grey;
 }
 
 #popular div article a {
@@ -400,8 +422,9 @@ footer div ul li a:hover {
   margin-top: 19px;
   border-radius: 20px;
   background: #ffffff;
-  border: 1px solid #d9d9d9;
+  border: 1px solid #f2f2f2;
   text-align: start;
+  box-shadow: 0px 0px 2px 0px grey;
 }
 
 #activities a {
