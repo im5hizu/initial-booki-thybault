@@ -26,6 +26,7 @@
     #itemcontainer section article img {
         width: 246px;
         height: 124px;
+        object-fit: cover;
     }
 
     #popular {
@@ -80,11 +81,7 @@
 
     #filters {
         width: 100%;
-        flex-wrap: wrap;
-    }
-
-    #filters ul {
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
     }
 
     #filters ul li {

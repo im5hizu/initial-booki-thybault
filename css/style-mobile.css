@@ -12,7 +12,8 @@
     }
 
     header div a img {
-        width: 100%;
+        width: 61px;
+        height: 19px;
         margin-top: 21px;
     }
 
@@ -102,8 +103,8 @@
         padding-top: 0;
     }
 
-    .hvr-overline-from-center {
-        transition: none;
+    .hvr-overline-from-center.hvr-overline-from-center:hover:before, .hvr-overline-from-center:focus:before, .hvr-overline-from-center:active:before {
+        display: none;
     }
 
     .align-horiz-no-space {
@@ -140,7 +141,7 @@
 
     #searchtown input {
         border: 1px solid #f2f2f2;
-        width: 100%;
+        width: 342px;
         padding-left: 45px;
     }
 
@@ -202,9 +203,15 @@
     }
 
     #popular div article {
-        width: 90%;
-        height: 100%;
+        width: 334px;
+        height: 144px;
         box-shadow: 0px 0px 2px 0px grey;
+    }
+
+    #popular div article img {
+        width: 137px;
+        height: 144px;
+        object-fit: cover;
     }
 
     #itemcontainer {
@@ -226,14 +233,15 @@
     }
 
     #itemcontainer section article {
-        width: 90%;
+        width: 335px;
         height: 199px;
         box-shadow: 0px 0px 2px 0px grey;
     }
 
     #itemcontainer section article img {
-        width: 100%;
+        width: 335px;
         height: 124px;
+        object-fit: cover;
     }
 
     #showmore {
@@ -253,11 +261,14 @@
 
     #activities div {
         box-shadow: 0px 0px 2px 0px grey;
-        width: 90%;
+        width: 334px;
+        height: 190px;
     }
 
     #activities div img {
-        width: 100%;
+        width: 334px;
+        height: 134px;
+        object-fit: cover;
     }
 
     #activities div h3 {

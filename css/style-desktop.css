@@ -308,12 +308,12 @@ input.hide-clear[type="search"]::-webkit-search-results-decoration {
   height: 626px;
 }
 
-#itemcontainer h2 {
-  padding-top: 42px;
+#offers h2 {
   width: 100%;
   font-size: 22px;
   font-weight: 700;
   padding-left: 40px;
+  transform: translateY(60px);
 }
 
 #itemcontainer section {
@@ -321,6 +321,7 @@ input.hide-clear[type="search"]::-webkit-search-results-decoration {
   flex-wrap: wrap;
   width: 100%;
   justify-content: space-evenly;
+  margin-top: 60px;
 }
 
 #itemcontainer section article {
