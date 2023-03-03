@@ -57,6 +57,10 @@
         object-fit: cover;
     }
 
+    #activities {
+        flex-wrap: wrap;
+    }
+
     #activities div {
         width: 182px;
         height: 267px;

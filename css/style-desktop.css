@@ -299,13 +299,20 @@ input.hide-clear[type="search"]::-webkit-search-results-decoration {
   background: #deebff;
 } 
 
+#offers {
+  background: #f2f2f2;
+  border-radius: 20px;
+  width: 880px;
+  height: 626px;
+
+}
+
 #itemcontainer {
   display: flex;
   flex-wrap: wrap;
   background: #f2f2f2;
   border-radius: 20px;
   width: 880px;
-  height: 626px;
 }
 
 #offers h2 {
@@ -313,18 +320,19 @@ input.hide-clear[type="search"]::-webkit-search-results-decoration {
   font-size: 22px;
   font-weight: 700;
   padding-left: 40px;
-  transform: translateY(60px);
+  transform: translateY(45px);
 }
 
-#itemcontainer section {
+#itemcontainer > div {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  height: 515px;
   justify-content: space-evenly;
-  margin-top: 60px;
+  padding-top: 80px;
 }
 
-#itemcontainer section article {
+#itemcontainer > div article {
   width: 246px;
   height: 199px;
   background:#fff;
@@ -332,7 +340,7 @@ input.hide-clear[type="search"]::-webkit-search-results-decoration {
   box-shadow: 0px 0px 20px -3px grey;
 }
 
-#itemcontainer section article img {
+#itemcontainer > div article img {
   width: 246px;
   height: 124px;
   border-top-right-radius: 20px;
@@ -340,13 +348,13 @@ input.hide-clear[type="search"]::-webkit-search-results-decoration {
   object-fit: cover;
 }
 
-#itemcontainer section h3 {
+#itemcontainer div h3 {
   font-size: 16px;
   font-weight: 700;
   padding-left: 16px;
 }
 
-#itemcontainer section p {
+#itemcontainer > div p {
   font-size: 14px;
   padding-left: 16px;
   padding-top: 5px;
@@ -357,7 +365,7 @@ input.hide-clear[type="search"]::-webkit-search-results-decoration {
   padding-top: 5px;
 }
 
-#itemcontainer section article a {
+#itemcontainer > div article a {
   text-decoration: none;
   color: black;
 }
