@@ -121,6 +121,12 @@ footer div ul li a:hover {
   text-decoration: underline;
 }
 
+input.hide-clear[type="search"]::-webkit-search-decoration,
+input.hide-clear[type="search"]::-webkit-search-cancel-button,
+input.hide-clear[type="search"]::-webkit-search-results-button,
+input.hide-clear[type="search"]::-webkit-search-results-decoration {
+  display: none; 
+}
 .align-horiz {
   display: flex;
   flex-wrap: nowrap;
@@ -189,6 +195,9 @@ footer div ul li a:hover {
   border-radius: 15px 0 0 15px;
   border-width: 1px;
   border-color: #F2F2F2;
+  padding-left: 40px;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 #searchtown button {
