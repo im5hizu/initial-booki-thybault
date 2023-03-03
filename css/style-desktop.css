@@ -162,7 +162,7 @@ input.hide-clear[type="search"]::-webkit-search-results-decoration {
 }
 
 #searchbutton {
-  margin-top: 20px;
+  margin-top: 20px; 
 }
 
 #searchtown {
@@ -214,6 +214,10 @@ input.hide-clear[type="search"]::-webkit-search-results-decoration {
   border-bottom-color: #0065fc;
   transform: translateX(-2px);
   padding: 0px 16px;
+}
+
+#searchtown button:hover {
+  cursor: pointer;
 }
 
 #searchtown button i {
