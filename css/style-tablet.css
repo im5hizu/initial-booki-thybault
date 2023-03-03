@@ -1,4 +1,4 @@
-@media screen and (min-width: 376px) and (max-width: 1024px)  {    
+@media screen and (min-width: 425px) and (max-width: 1024px)  {    
     .align-horiz {
         flex-direction: column;
     }
@@ -77,6 +77,15 @@
 
     #filters {
         width: 100%;
+        flex-wrap: wrap;
+    }
+
+    #filters ul {
+        flex-wrap: wrap;
+    }
+
+    #filters ul li {
+        font-size: 11px;
     }
 
     #showmore {

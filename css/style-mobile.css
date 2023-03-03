@@ -1,8 +1,8 @@
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 425px) {
     body {
         list-style: none;
         margin: 0;
-        max-width: 375px;
+        max-width: 425px;
     }
 
     header div {
