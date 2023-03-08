@@ -56,12 +56,12 @@
     }
 
     header h1 {
-        margin-left: 20px;
+        padding-left: 20px;
         margin-top: 31px;
     }
 
     header h2 {
-        margin-left: 20px;
+        padding-left: 20px;
         margin-top: 13px;
     }
 
@@ -89,7 +89,7 @@
     }
 
     footer nav {
-        margin-left: 20px;
+        padding-left: 20px;
     }
 
     footer nav ul {
@@ -121,7 +121,7 @@
     }
 
     #searchtown {
-        margin-left: 0;
+        padding-left: 0;
         align-items: center;
     }
 
@@ -200,6 +200,7 @@
     #offers {
         width: 100%;
         height: auto;
+        background: #fff;
     }
 
     #popular div {
@@ -263,7 +264,7 @@
     }
 
     #activities h2 {
-        margin-left: 20px;
+        padding-left: 20px;
     }
 
     #activities div {
